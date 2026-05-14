@@ -244,9 +244,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📧 Contact & Support
 
-- **Issues:** [Report bugs on GitHub](https://github.com/yourusername/DevApple/issues)
-- **Discussions:** [Join our community](https://github.com/yourusername/DevApple/discussions)
-- **Email:** your.email@example.com
+- **Issues:** [Report bugs on GitHub](https://github.com/SamJoel2007/DevApple/issues)
+- **Discussions:** [Join our community](https://github.com/SamJoel2007/DevApple/discussions)
+- **Email:** samgladson07@gmail.com
 
 ---
 
