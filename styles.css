@@ -1,9 +1,9 @@
 :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
+            --bg-color: black;
+            --card-bg: black;
             --text-color: #f8fafc;
             --accent-color: #38bdf8;
-            --border-color: #334155;
+            --border-color: #38bdf8;
         }
 
         body {
@@ -102,7 +102,7 @@
 
         code {
             font-family: 'Fira Code', 'Courier New', monospace;
-            color: #ec4899; /* Vibrant code color */
+            color: white; /* Vibrant code color */
             line-height: 1.5;
         }
 
