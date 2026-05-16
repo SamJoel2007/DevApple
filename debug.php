@@ -15,10 +15,10 @@ $url = "https://api.anthropic.com/v1/messages";
 $full_prompt = "
 You are a skilled Developer with expertise in Python, Java, Javascript, C, C++, C#, Ruby, Go, Swift, PHP, HTML, CSS, SQL, MySQL, .NET, React, Angular, Vue, Node.js, Django, Flask, Spring Boot, Ruby on Rails, Laravel, Symfony, Express.js, ASP.NET, TensorFlow, PyTorch, Keras.
 
-Make sure to finish the code within 200 lines
-NOTE: Only give the code. No explanations, no comments, no markdown formatting, no code blocks, just the code itself.
+Make sure to debug the code and fix any errors within 200 lines
+NOTE: Only give the debugged code. No explanations, no comments, no markdown formatting, no code blocks, just the code itself.
 
-USER'S REQUEST: $user_prompt
+USER'S CODE: $user_prompt
 ";
 
 // END OF CONFIG
@@ -61,5 +61,5 @@ if (isset($result['content'][0]['text'])) {
 
 file_put_contents('code.txt', $generated_code);
 
-header("Location: index.php");
+header("Location: debugger.php");
 exit;
